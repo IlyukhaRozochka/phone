@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    height: 80px;
+    align-items: center;
+    background-color: #323232;
+    color: #DEDEDE;
+
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header__menu {
+    font-size: 18px;
+    display: flex;
+    gap: 65px;
+    
+}
+
+.header__menu > a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+
+}
+
+.hello {
+    display: flex;
+    padding: 75px;
+    background-color: #202020;
+    color: #DEDEDE;  
+}
+
+.hello__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 50%;
+    gap: 30px;
+}
+
+.hello__h1 {
+    font-size: 64px; 
+    
+     
+}
+
+.hello__p {
+    font-size: 24px;
+}
+
+.hello__button {
+    width: 400px;
+    height: 64px;
+    background-color: #9D9D9D;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 18px;
+}
